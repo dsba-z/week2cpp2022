@@ -21,8 +21,35 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 
+#include <iostream>
+#include <iomanip>
+
+using std::cout;
+using std::cin;
+
 int main()
 {
-    // TODO: input your code here
+    double m;
+    int n;
+    std::cin >> m;  // s.split()
+    std::cin >> n;
+
+
+    for (int i = 1; i <= n; ++i)
+    {
+        cout << "\t" << i;
+    }
+    cout << std::endl;
+    for (int i = 1; i <= m; ++i)
+    {
+        cout << i;
+        for (int j = 1; j <= n; ++j)
+        {
+            cout << "\t" << i*j;
+
+        }
+        cout << std::endl;
+
+    }
     return 0;
 }

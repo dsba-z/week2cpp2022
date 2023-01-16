@@ -16,6 +16,10 @@
 int main()
 {
     // TODO: input your code here
-
+    char c;
+    char d = c + 1;
+    ord(c); // from python
+    chr(n); // python
+    
     return 0;
 }

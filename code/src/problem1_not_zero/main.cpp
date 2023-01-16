@@ -14,6 +14,20 @@
 
 int main()
 {
-    // TODO: input your code here
+    int x;
+    std::cout << "Please enter a number: " << std::endl;
+    
+    std::cin >> x;
+
+    if (x == 0)
+    {
+        std::cout << "The number should not be 0" << std::endl;
+    }
+    else
+    {
+        std::cout << 100 / x << std::endl;
+        std::cout << 100. / x << std::endl;
+    }
+
     return 0;
 }
