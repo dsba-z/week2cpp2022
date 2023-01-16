@@ -13,9 +13,31 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 
+#include <iostream>
+#include <iomanip>
+
+using std::cin;
+using std::cout;
+
 int main()
 {
     // TODO: input your code here
 
+    for (int j = 0; j < 16; ++j)
+    {
+        cout << "\t" << std::hex << j;
+    }
+    cout << std::endl;
+
+    for (int i = 2; i < 8; ++i)
+    {
+        for (int j = 0; j < 16; ++j)
+        {
+            cout << "\t" << char(90);
+            // ord(s)
+            // chr(n)
+        }
+        cout << std::endl;
+    } 
     return 0;
 }
